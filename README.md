@@ -10,7 +10,7 @@ Odyssey/Voyager型のMinecraft AIエージェント用APIサーバー（FastAPI�
 - 日記・行動履歴API
 - 擬似的な自律実行ループAPI
 
-## 使い方（超簡潔）
+## 使い方
 1. 必要な依存をconda/pipでインストール
 2. サーバー起動
    ```
