@@ -1,6 +1,8 @@
 # ai_steve_odyssey
 
 Odyssey/Voyager型のMinecraft AIエージェント用APIサーバー（FastAPI実装）
+Odyssey: https://arxiv.org/abs/2407.15325
+Voyager: https://voyager.minedojo.org/
 
 ## 機能概要
 - Skill Library（func.json）管理API（追加・編集・削除・リネーム・履歴・一覧）
