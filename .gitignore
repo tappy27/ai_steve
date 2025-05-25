@@ -1,0 +1,23 @@
+# VSCode/OS
+.DS_Store
+__pycache__/
+*.pyc
+
+# 仮想環境・パッケージ
+venv/
+miniconda/
+ai_steve_env/
+*.egg-info/
+*.conda
+*.env
+
+# モデル・大容量データ
+MineMA-3-8b-v4/
+MineMA-3-70b-*/
+*.safetensors
+*.bin
+*.pt
+
+# その他
+*.log
+*.tmp
