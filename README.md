@@ -128,5 +128,5 @@ MIT License（Odyssey本家に準拠）
 ## 引用
 
 Odyssey:  
-https://arxiv.org/abs/2407.15325
-https://github.com/zju-vipa/Odyssey
+- 論文: https://arxiv.org/abs/2407.15325
+- github: https://github.com/zju-vipa/Odyssey
