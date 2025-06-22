@@ -34,30 +34,31 @@ build/
 *.egg-info/
 *.so
 
-# Model/embedding大容量ファイル
-*.safetensors
-*.bin
-*.h5
-*.pt
-*.ckpt
-
-# Git LFS管理の大容量ファイル（手動で管理する場合はコメントアウト）
-# MineMA-8Bやparaphrase-multilingual-MiniLM-L12-v2等のモデル本体は.gitignore推奨
+# Model/embedding大容量ファイル・サブモジュール
 MineMA-8B/
-paraphrase-multilingual-MiniLM-L12-v2/
 MineMA-3-8b-v4/
-MineMA-Model-Fine-Tuning/
+paraphrase-multilingual-MiniLM-L12-v2/
+mineflayer-collectblock/
 logs/
 ckpt/
 results/
 output/
 output_*/
 
-# その他
-.env
-.env.*
+# サブモジュール/サブディレクトリとして青字で表示されるもの（自身でインストール・ビルドすべきもの）
+LLM-Backend/
+MC-Comprehensive-Skill-Library/
+MC-Crawler/
+MineMA-Model-Fine-Tuning/
+Multi-Agent/
+Odyssey/
+# これらはREADMEの手順で各自インストール・ビルド
 
 # 配布・動作に不要な一時ファイルや個人設定
+.env
+.env.*
+Odyssey_paper_text
+
 *.sqlite3
 *.db
 *.pid
@@ -78,4 +79,4 @@ output_*/
 *.7z
 
 # 配布用に必要なファイル・ディレクトリは必ず.gitignoreから除外してください
-# 例: Odyssey/, LLM-Backend/, MC-Comprehensive-Skill-Library/, main.py, mc_bot.js, requirements.txt, README.md など
+# 例: main.py, mc_bot.js, requirements.txt, README.md など
