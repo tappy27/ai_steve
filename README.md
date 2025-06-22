@@ -2,10 +2,11 @@
 
 ## 概要
 
-**ai_steve**は、Odyssey論文・公式実装をベースにした「人と一緒に遊ぶマインクラフトAIチャットBot」です。  
+**ai_steve**は、Odyssey論文・公式実装をベースにした「人と一緒に遊ぶマインクラフトAIチャットBot」です。
 Minecraftサーバー内で人間のチャットに自然言語で返答し、複雑なタスク（例: "mine diamond"）も自律的にサブゴール分解・実行します。  
-Odyssey本家の設計思想（LLMベースの長期計画・自己反省・スキルライブラリ）を忠実に再現し、  
-**ai_steveフォルダだけで全ての依存が完結**するようリファクタリングされています。
+GPU不要、ローカルCPUのみで動作します。
+mine diamond、の一言だけでダイヤモンドを自力で入手する程度の能力はあります。
+開発中であり、全てのチャットを命令と受け取って意図しない命令を実行し始めたり、そもそも反応が遅すぎたり、まだまだ一緒に遊んで楽しめるレベルではありません。
 
 ---
 
@@ -68,8 +69,7 @@ git lfs pull
 cd ../../
 ```
 
-**⚠️ 注意: LLM本体（MineMA-3-8b-v4）は約15GB以上の大容量ファイルです。  
-ダウンロード・展開には十分なディスク空き容量（20GB以上推奨）が必要です。**
+**⚠️ 注意: LLM本体（MineMA-3-8b-v4）は約15GB以上の大容量ファイルです。 **
 
 ---
 
@@ -89,7 +89,7 @@ python main.py
 cd ai_steve/Odyssey/odyssey/env/mineflayer
 node --max-old-space-size=16384 index.js 3000
 ```
-**⚠️ Node.jsプロセスには最低でも8GB以上、推奨16GB以上のメモリを割り当ててください。  
+**⚠️ Node.jsプロセスには8GB以上、推奨16GB以上のメモリを割り当ててください。  
 メモリ不足の場合は`--max-old-space-size`の値を増やしてください。**
 
 ### 3. Odyssey本体（AIエージェント/Flaskサーバー）
@@ -118,15 +118,6 @@ node mc_bot.js
 - Minecraft内で「mine diamond」など自然言語でチャット
 - AIがOdyssey本家のサブゴール分解・自己反省・段階的実行で返答・行動
 - サーバーやBotが落ちても自動復帰
-
----
-
-## 注意
-
-- ai_steveフォルダだけで全ての依存が完結します
-- /home/tappy/以下の他のOdyssey本家リソースは不要です
-- Node.js v22.x系、Python 3.12、conda環境推奨
-- LLM本体は15GB以上、メモリは最低8GB（推奨16GB以上）必要
 - 詳細な設定は`ai_steve/Odyssey/conf/config.json`等を参照
 
 ---
@@ -139,5 +130,6 @@ MIT License（Odyssey本家に準拠）
 
 ## 引用
 
-Odyssey論文:  
+Odyssey:  
 https://arxiv.org/abs/2407.15325
+https://github.com/zju-vipa/Odyssey
