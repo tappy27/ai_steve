@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Jupyter
+*.ipynb_checkpoints
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+package-lock.json
+yarn.lock
+
+# Build
+dist/
+build/
+*.egg-info/
+*.so
+
+# Model/embedding大容量ファイル
+*.safetensors
+*.bin
+*.h5
+*.pt
+*.ckpt
+
+# Git LFS管理の大容量ファイル（手動で管理する場合はコメントアウト）
+# MineMA-8Bやparaphrase-multilingual-MiniLM-L12-v2等のモデル本体は.gitignore推奨
+MineMA-8B/
+paraphrase-multilingual-MiniLM-L12-v2/
+MineMA-3-8b-v4/
+MineMA-Model-Fine-Tuning/
+logs/
+ckpt/
+results/
+output/
+output_*/
+
+# その他
+.env
+.env.*
+
+# 配布・動作に不要な一時ファイルや個人設定
+*.sqlite3
+*.db
+*.pid
+*.lock
+*.bak
+*.old
+*.orig
+*.rej
+*.out
+*.tmp
+*.cache
+*.log
+*.gz
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# 配布用に必要なファイル・ディレクトリは必ず.gitignoreから除外してください
+# 例: Odyssey/, LLM-Backend/, MC-Comprehensive-Skill-Library/, main.py, mc_bot.js, requirements.txt, README.md など

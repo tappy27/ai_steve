@@ -1,0 +1,64 @@
+2025-06-23 02:49:46,129 - mineflayer - INFO - Stopping subprocess.
+2025-06-23 02:49:47,130 - mineflayer - INFO - Starting subprocess with commands: ['node', '/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js', '3000']
+2025-06-23 02:49:47,436 - mineflayer - INFO - node:events:495
+2025-06-23 02:49:47,436 - mineflayer - INFO - throw er; // Unhandled 'error' event
+2025-06-23 02:49:47,436 - mineflayer - INFO - ^
+2025-06-23 02:49:47,436 - mineflayer - INFO - 
+2025-06-23 02:49:47,436 - mineflayer - INFO - Error: listen EADDRINUSE: address already in use :::3000
+2025-06-23 02:49:47,436 - mineflayer - INFO - at Server.setupListenHandle [as _listen2] (node:net:1811:16)
+2025-06-23 02:49:47,436 - mineflayer - INFO - at listenInCluster (node:net:1859:12)
+2025-06-23 02:49:47,436 - mineflayer - INFO - at Server.listen (node:net:1947:7)
+2025-06-23 02:49:47,436 - mineflayer - INFO - at Function.listen (/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/node_modules/express/lib/application.js:635:24)
+2025-06-23 02:49:47,436 - mineflayer - INFO - at Object.<anonymous> (/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js:423:5)
+2025-06-23 02:49:47,436 - mineflayer - INFO - at Module._compile (node:internal/modules/cjs/loader:1356:14)
+2025-06-23 02:49:47,436 - mineflayer - INFO - at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+2025-06-23 02:49:47,436 - mineflayer - INFO - at Module.load (node:internal/modules/cjs/loader:1197:32)
+2025-06-23 02:49:47,436 - mineflayer - INFO - at Module._load (node:internal/modules/cjs/loader:1013:12)
+2025-06-23 02:49:47,436 - mineflayer - INFO - at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+2025-06-23 02:49:47,436 - mineflayer - INFO - Emitted 'error' event on Server instance at:
+2025-06-23 02:49:47,436 - mineflayer - INFO - at emitErrorNT (node:net:1838:8)
+2025-06-23 02:49:47,436 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+2025-06-23 02:49:47,436 - mineflayer - INFO - code: 'EADDRINUSE',
+2025-06-23 02:49:47,436 - mineflayer - INFO - errno: -98,
+2025-06-23 02:49:47,436 - mineflayer - INFO - syscall: 'listen',
+2025-06-23 02:49:47,436 - mineflayer - INFO - address: '::',
+2025-06-23 02:49:47,436 - mineflayer - INFO - port: 3000
+2025-06-23 02:49:47,436 - mineflayer - INFO - }
+2025-06-23 02:49:47,436 - mineflayer - INFO - 
+2025-06-23 02:49:47,436 - mineflayer - INFO - Node.js v18.19.1
+2025-06-23 02:50:01,547 - mineflayer - INFO - Stopping subprocess.
+2025-06-23 02:50:02,548 - mineflayer - INFO - Starting subprocess with commands: ['node', '/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js', '3000']
+2025-06-23 02:50:02,851 - mineflayer - INFO - Server started on port 3000
+2025-06-23 02:50:02,852 - mineflayer - INFO - Subprocess is ready.
+2025-06-23 02:50:02,863 - mineflayer - INFO - {
+2025-06-23 02:50:02,863 - mineflayer - INFO - host: '192.168.10.101',
+2025-06-23 02:50:02,863 - mineflayer - INFO - port: '25565',
+2025-06-23 02:50:02,863 - mineflayer - INFO - reset: 'soft',
+2025-06-23 02:50:02,863 - mineflayer - INFO - inventory: {},
+2025-06-23 02:50:02,863 - mineflayer - INFO - equipment: [],
+2025-06-23 02:50:02,863 - mineflayer - INFO - spread: false,
+2025-06-23 02:50:02,863 - mineflayer - INFO - waitTicks: 100,
+2025-06-23 02:50:02,863 - mineflayer - INFO - position: null,
+2025-06-23 02:50:02,863 - mineflayer - INFO - username: 'ai_steve'
+2025-06-23 02:50:02,863 - mineflayer - INFO - }
+2025-06-23 02:50:03,200 - mineflayer - INFO - node:internal/modules/cjs/loader:437
+2025-06-23 02:50:03,200 - mineflayer - INFO - const err = new Error(
+2025-06-23 02:50:03,200 - mineflayer - INFO - ^
+2025-06-23 02:50:03,200 - mineflayer - INFO - 
+2025-06-23 02:50:03,200 - mineflayer - INFO - Error: Cannot find module '/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/node_modules/mineflayer-collectblock/lib/index.js'. Please verify that the package.json has a valid "main" entry
+2025-06-23 02:50:03,200 - mineflayer - INFO - at tryPackage (node:internal/modules/cjs/loader:437:19)
+2025-06-23 02:50:03,200 - mineflayer - INFO - at Module._findPath (node:internal/modules/cjs/loader:705:18)
+2025-06-23 02:50:03,200 - mineflayer - INFO - at Module._resolveFilename (node:internal/modules/cjs/loader:1120:27)
+2025-06-23 02:50:03,200 - mineflayer - INFO - at Module._load (node:internal/modules/cjs/loader:975:27)
+2025-06-23 02:50:03,200 - mineflayer - INFO - at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-06-23 02:50:03,200 - mineflayer - INFO - at require (node:internal/modules/helpers:177:18)
+2025-06-23 02:50:03,200 - mineflayer - INFO - at EventEmitter.<anonymous> (/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js:100:30)
+2025-06-23 02:50:03,200 - mineflayer - INFO - at Object.onceWrapper (node:events:631:28)
+2025-06-23 02:50:03,200 - mineflayer - INFO - at EventEmitter.emit (node:events:529:35)
+2025-06-23 02:50:03,200 - mineflayer - INFO - at Client.<anonymous> (/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/node_modules/mineflayer/lib/plugins/health.js:13:11) {
+2025-06-23 02:50:03,200 - mineflayer - INFO - code: 'MODULE_NOT_FOUND',
+2025-06-23 02:50:03,200 - mineflayer - INFO - path: '/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/node_modules/mineflayer-collectblock/package.json',
+2025-06-23 02:50:03,200 - mineflayer - INFO - requestPath: 'mineflayer-collectblock'
+2025-06-23 02:50:03,200 - mineflayer - INFO - }
+2025-06-23 02:50:03,200 - mineflayer - INFO - 
+2025-06-23 02:50:03,200 - mineflayer - INFO - Node.js v18.19.1

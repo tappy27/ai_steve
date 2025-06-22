@@ -1,0 +1,48 @@
+2025-06-23 02:37:33,880 - mineflayer - INFO - Stopping subprocess.
+2025-06-23 02:37:34,881 - mineflayer - INFO - Starting subprocess with commands: ['node', '/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js', '3000']
+2025-06-23 02:37:34,950 - mineflayer - INFO - node:internal/modules/cjs/loader:1137
+2025-06-23 02:37:34,951 - mineflayer - INFO - throw err;
+2025-06-23 02:37:34,951 - mineflayer - INFO - ^
+2025-06-23 02:37:34,951 - mineflayer - INFO - 
+2025-06-23 02:37:34,951 - mineflayer - INFO - Error: Cannot find module 'express'
+2025-06-23 02:37:34,951 - mineflayer - INFO - Require stack:
+2025-06-23 02:37:34,951 - mineflayer - INFO - - /home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js
+2025-06-23 02:37:34,951 - mineflayer - INFO - at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+2025-06-23 02:37:34,951 - mineflayer - INFO - at Module._load (node:internal/modules/cjs/loader:975:27)
+2025-06-23 02:37:34,951 - mineflayer - INFO - at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-06-23 02:37:34,951 - mineflayer - INFO - at require (node:internal/modules/helpers:177:18)
+2025-06-23 02:37:34,951 - mineflayer - INFO - at Object.<anonymous> (/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js:2:17)
+2025-06-23 02:37:34,951 - mineflayer - INFO - at Module._compile (node:internal/modules/cjs/loader:1356:14)
+2025-06-23 02:37:34,951 - mineflayer - INFO - at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+2025-06-23 02:37:34,951 - mineflayer - INFO - at Module.load (node:internal/modules/cjs/loader:1197:32)
+2025-06-23 02:37:34,951 - mineflayer - INFO - at Module._load (node:internal/modules/cjs/loader:1013:12)
+2025-06-23 02:37:34,951 - mineflayer - INFO - at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+2025-06-23 02:37:34,951 - mineflayer - INFO - code: 'MODULE_NOT_FOUND',
+2025-06-23 02:37:34,951 - mineflayer - INFO - requireStack: [ '/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js' ]
+2025-06-23 02:37:34,951 - mineflayer - INFO - }
+2025-06-23 02:37:34,951 - mineflayer - INFO - 
+2025-06-23 02:37:34,951 - mineflayer - INFO - Node.js v18.19.1
+2025-06-23 02:37:49,038 - mineflayer - INFO - Stopping subprocess.
+2025-06-23 02:37:50,039 - mineflayer - INFO - Starting subprocess with commands: ['node', '/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js', '3000']
+2025-06-23 02:37:50,100 - mineflayer - INFO - node:internal/modules/cjs/loader:1137
+2025-06-23 02:37:50,100 - mineflayer - INFO - throw err;
+2025-06-23 02:37:50,100 - mineflayer - INFO - ^
+2025-06-23 02:37:50,100 - mineflayer - INFO - 
+2025-06-23 02:37:50,100 - mineflayer - INFO - Error: Cannot find module 'express'
+2025-06-23 02:37:50,100 - mineflayer - INFO - Require stack:
+2025-06-23 02:37:50,100 - mineflayer - INFO - - /home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js
+2025-06-23 02:37:50,100 - mineflayer - INFO - at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
+2025-06-23 02:37:50,100 - mineflayer - INFO - at Module._load (node:internal/modules/cjs/loader:975:27)
+2025-06-23 02:37:50,100 - mineflayer - INFO - at Module.require (node:internal/modules/cjs/loader:1225:19)
+2025-06-23 02:37:50,100 - mineflayer - INFO - at require (node:internal/modules/helpers:177:18)
+2025-06-23 02:37:50,100 - mineflayer - INFO - at Object.<anonymous> (/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js:2:17)
+2025-06-23 02:37:50,100 - mineflayer - INFO - at Module._compile (node:internal/modules/cjs/loader:1356:14)
+2025-06-23 02:37:50,100 - mineflayer - INFO - at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+2025-06-23 02:37:50,100 - mineflayer - INFO - at Module.load (node:internal/modules/cjs/loader:1197:32)
+2025-06-23 02:37:50,100 - mineflayer - INFO - at Module._load (node:internal/modules/cjs/loader:1013:12)
+2025-06-23 02:37:50,100 - mineflayer - INFO - at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12) {
+2025-06-23 02:37:50,100 - mineflayer - INFO - code: 'MODULE_NOT_FOUND',
+2025-06-23 02:37:50,100 - mineflayer - INFO - requireStack: [ '/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js' ]
+2025-06-23 02:37:50,100 - mineflayer - INFO - }
+2025-06-23 02:37:50,100 - mineflayer - INFO - 
+2025-06-23 02:37:50,100 - mineflayer - INFO - Node.js v18.19.1

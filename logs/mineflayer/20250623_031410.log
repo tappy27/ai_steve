@@ -1,0 +1,28 @@
+2025-06-23 03:14:26,177 - mineflayer - INFO - Stopping subprocess.
+2025-06-23 03:14:27,179 - mineflayer - INFO - Starting subprocess with commands: ['node', '/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js', '3000']
+2025-06-23 03:14:27,568 - mineflayer - INFO - node:events:495
+2025-06-23 03:14:27,568 - mineflayer - INFO - throw er; // Unhandled 'error' event
+2025-06-23 03:14:27,568 - mineflayer - INFO - ^
+2025-06-23 03:14:27,568 - mineflayer - INFO - 
+2025-06-23 03:14:27,568 - mineflayer - INFO - Error: listen EADDRINUSE: address already in use :::3000
+2025-06-23 03:14:27,568 - mineflayer - INFO - at Server.setupListenHandle [as _listen2] (node:net:1811:16)
+2025-06-23 03:14:27,568 - mineflayer - INFO - at listenInCluster (node:net:1859:12)
+2025-06-23 03:14:27,568 - mineflayer - INFO - at Server.listen (node:net:1947:7)
+2025-06-23 03:14:27,568 - mineflayer - INFO - at Function.listen (/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/node_modules/express/lib/application.js:635:24)
+2025-06-23 03:14:27,568 - mineflayer - INFO - at Object.<anonymous> (/home/tappy/ai_steve/Odyssey/odyssey/env/mineflayer/index.js:423:5)
+2025-06-23 03:14:27,568 - mineflayer - INFO - at Module._compile (node:internal/modules/cjs/loader:1356:14)
+2025-06-23 03:14:27,568 - mineflayer - INFO - at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+2025-06-23 03:14:27,568 - mineflayer - INFO - at Module.load (node:internal/modules/cjs/loader:1197:32)
+2025-06-23 03:14:27,569 - mineflayer - INFO - at Module._load (node:internal/modules/cjs/loader:1013:12)
+2025-06-23 03:14:27,569 - mineflayer - INFO - at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+2025-06-23 03:14:27,569 - mineflayer - INFO - Emitted 'error' event on Server instance at:
+2025-06-23 03:14:27,569 - mineflayer - INFO - at emitErrorNT (node:net:1838:8)
+2025-06-23 03:14:27,569 - mineflayer - INFO - at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+2025-06-23 03:14:27,569 - mineflayer - INFO - code: 'EADDRINUSE',
+2025-06-23 03:14:27,569 - mineflayer - INFO - errno: -98,
+2025-06-23 03:14:27,569 - mineflayer - INFO - syscall: 'listen',
+2025-06-23 03:14:27,569 - mineflayer - INFO - address: '::',
+2025-06-23 03:14:27,569 - mineflayer - INFO - port: 3000
+2025-06-23 03:14:27,569 - mineflayer - INFO - }
+2025-06-23 03:14:27,569 - mineflayer - INFO - 
+2025-06-23 03:14:27,569 - mineflayer - INFO - Node.js v18.19.1
